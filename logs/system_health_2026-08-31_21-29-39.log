@@ -1,0 +1,10 @@
+==============================
+    SYSTEM HEALTH MONITOR
+==============================
+Hostname   : muhammad-hasnain-VirtualBox
+Date       : Mon Aug 31 09:29:39 PM PKT 2026
+Uptime	   : up 1 hour, 47 minutes
+==============================
+CPU Usage:
+CPU Usage: 60.9%%
+./health_monitor.sh: line 63: unexpected EOF while looking for matching `"'

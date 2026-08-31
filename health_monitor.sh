@@ -16,7 +16,13 @@ echo "=============================="
 
 # CPU Usage
 echo "CPU Usage:" 
-top -bn1 | grep "Cpu(s)" | awk '{print 100 - $8 "%"}'
+CPU_USAGE=$(top -bn1 | grep "Cpu(s)" | awk '{print 100 - $8}')
+echo "CPU Usage: $CPU_USAGE%" 
+if (( $(echo "$CPU_USAGE" > 80 | bc -l) )); then
+	echo "WARNING: CPU Usage is aboce 80%!"
+else
+	echo "CPU Usage is normal"
+fi
 
 echo "=============================="
 
