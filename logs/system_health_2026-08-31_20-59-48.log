@@ -1,0 +1,33 @@
+==============================
+    SYSTEM HEALTH MONITOR
+==============================
+Hostname   : muhammad-hasnain-VirtualBox
+Date       : Mon Aug 31 08:59:48 PM PKT 2026
+Uptime	   : up 1 hour, 18 minutes
+==============================
+CPU Usage:
+54.5%
+==============================
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       1.2Gi       469Mi       1.1Mi       2.0Gi       2.1Gi
+Swap:          3.8Gi       928Ki       3.8Gi
+==============================
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G   22G  479M  98% /
+==============================
+Logged-in Users:
+ 20:59:49 up  1:18,  2 users,  load average: 1.21, 1.14, 1.16
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+muhammad          192.168.56.1     19:42           0.00s  0.02s sshd-session: muhammad-hasnain [priv]
+muhammad pts/0    192.168.56.1     19:42    5.00s  0.65s  0.56s sudo -i
+==============================
+./health_monitor.sh: line 43: [DISK_USAGE: command not found
+Disk Usage is normal
+===============================
+awk: line 1: syntax error at or near :
+awk: line 1: extra '}'
+Memory Usage: %
+./health_monitor.sh: line 54: [: missing `]'
+Memory Usage is normal

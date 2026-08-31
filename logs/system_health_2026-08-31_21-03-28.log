@@ -1,0 +1,30 @@
+==============================
+    SYSTEM HEALTH MONITOR
+==============================
+Hostname   : muhammad-hasnain-VirtualBox
+Date       : Mon Aug 31 09:03:28 PM PKT 2026
+Uptime	   : up 1 hour, 21 minutes
+==============================
+CPU Usage:
+64%
+==============================
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       1.1Gi       433Mi       1.4Mi       2.0Gi       2.2Gi
+Swap:          3.8Gi       924Ki       3.8Gi
+==============================
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G   22G  479M  98% /
+==============================
+Logged-in Users:
+ 21:03:29 up  1:21,  2 users,  load average: 1.03, 1.09, 1.14
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+muhammad          192.168.56.1     19:42           0.00s  0.02s sshd-session: muhammad-hasnain [priv]
+muhammad pts/0    192.168.56.1     19:42    1.00s  0.68s  0.59s sudo -i
+==============================
+./health_monitor.sh: line 43: [: DISK_USAGE: integer expected
+Disk Usage is normal
+===============================
+Memory Usage: 35%
+Memory Usage is normal
