@@ -48,7 +48,7 @@ fi
 
 echo "==============================="
 
-# Memory Usage
+# Memory Warning
 MEMORY_USAGE=$(free | awk '/Mem:/ {printf "%.0f", $3/$2 * 100}')
 echo "Memory Usage: $MEMORY_USAGE%"
 if [ "$MEMORY_USAGE" -gt 80 ]; then
