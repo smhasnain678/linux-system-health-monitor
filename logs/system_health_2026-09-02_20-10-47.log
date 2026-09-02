@@ -1,0 +1,30 @@
+==============================
+    SYSTEM HEALTH MONITOR
+==============================
+Hostname   : muhammad-hasnain-VirtualBox
+Date       : Wed Sep  2 08:10:47 PM PKT 2026
+Uptime	   : up 4 minutes
+==============================
+CPU Usage:
+CPU Usage: 50%
+CPU Usage is normal
+==============================
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       924Mi       840Mi       8.6Mi       1.8Gi       2.4Gi
+Swap:          3.8Gi          0B       3.8Gi
+==============================
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G   22G  291M  99% /
+==============================
+Logged-in Users:
+ 20:10:47 up 4 min,  2 users,  load average: 1.01, 0.93, 0.45
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+muhammad          192.168.56.1     20:06           0.00s  0.03s sshd-session: muhammad-hasnain [priv]
+muhammad pts/0    192.168.56.1     20:06    6.00s  0.11s  0.02s sudo -i
+==============================
+WARNING: Disk Usage is above 80%!
+===============================
+Memory Usage: 27%
+Memory Usage is normal
